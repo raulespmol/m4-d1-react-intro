@@ -1,5 +1,5 @@
-import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css'
 import Header from './components/Header'
 import MyCard from './components/MyCard'
 import Footer from './components/Footer'
