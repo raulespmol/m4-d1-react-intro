@@ -8,14 +8,39 @@ function App() {
 
   return (
     <>
-      <Header title={'Adopta un Perrito'}/>
-      <MyCard 
-        name={'Sombra'} 
-        img={'https://placedog.net/300'} 
-        desc={'lorem'}
-        tagText={'hola'}
-        tagColor={'dark'}
-      />
+      <Header title={'Adopta un Perrito'} />
+      <div className='container'>
+        <div className="row">
+          <MyCard 
+            name={'Sombra'} 
+            img={'https://placedog.net/300'} 
+            desc={'lorem'}
+            tagText={'hola'}
+            tagColor={'warning'}
+          />
+          <MyCard 
+            name={'Haru'} 
+            img={'https://placedog.net/300'} 
+            desc={'lorem'}
+            tagText={'tag'}
+            tagColor={'primary'}
+          />
+          <MyCard 
+            name={'Haru'} 
+            img={'https://placedog.net/300'} 
+            desc={'lorem'}
+            tagText={'tag'}
+            tagColor={'primary'}
+          />
+          <MyCard 
+            name={'Haru'} 
+            img={'https://placedog.net/300'} 
+            desc={'lorem'}
+            tagText={'tag'}
+            tagColor={'primary'}
+          />
+        </div>
+      </div> 
       <Footer />
     </>
   )
